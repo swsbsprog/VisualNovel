@@ -10,7 +10,8 @@ public class DialogInfo
     public enum Type
     {
         Talk,
-        ActorEnter
+        ActorEnter,
+        ActorExit,
     }
 
     [Inspectable]
