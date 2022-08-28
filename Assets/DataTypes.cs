@@ -5,7 +5,7 @@ using UnityEngine;
 
 [Inspectable]
 [System.Serializable]
-public class DialogInfo
+public class TurnInfo
 {
     public enum Type
     {
@@ -26,4 +26,6 @@ public class DialogInfo
     [Header("ActorEnter")]
     [Inspectable]
     public Sprite Image;
+
+    public bool clearText = true;
 }

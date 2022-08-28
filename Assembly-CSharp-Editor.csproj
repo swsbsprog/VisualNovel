@@ -54,49 +54,48 @@
   </PropertyGroup>
   <ItemGroup>
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
-    <Analyzer Include="D:\SVN\VoltTest\Assets\VisualNovelToolkit\DLLs\MakeDLLforFree.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\VisualNovelToolkit\Scripts\Editor\Inspector\Nodes\GUICommon.cs" />
-    <Compile Include="Assets\VisualNovelToolkit\Scripts\Editor\Inspector\UI\ColorPanelInspector.cs" />
-    <Compile Include="Assets\VisualNovelToolkit\Scripts\Editor\Inspector\Util\ScenarioCtrlInspector.cs" />
-    <Compile Include="Assets\VisualNovelToolkit\Scripts\Editor\Window\DrawObjectsTab.cs" />
-    <Compile Include="Assets\VisualNovelToolkit\Scripts\Editor\Inspector\Util\SceneInspector.cs" />
-    <Compile Include="Assets\VisualNovelToolkit\Scripts\Editor\Util\ScriptableObjectUtility.cs" />
-    <Compile Include="Assets\VisualNovelToolkit\Scripts\Editor\Inspector\Nodes\SelectionsNodeInspector.cs" />
-    <Compile Include="Assets\VisualNovelToolkit\Scripts\Editor\Inspector\Util\ViNoSaveInfoInspector.cs" />
-    <Compile Include="Assets\VisualNovelToolkit\Scripts\Editor\Inspector\Nodes\ViNodeInspector.cs" />
-    <Compile Include="Assets\VisualNovelToolkit\Scripts\Editor\Inspector\Sound\SimpleSoundPlayerInspector.cs" />
-    <Compile Include="Assets\VisualNovelToolkit\Scripts\Editor\Inspector\Nodes\NodeGUI.cs" />
-    <Compile Include="Assets\VisualNovelToolkit\Scripts\Editor\Util\ViNoScenarioDataUtil.cs" />
     <Compile Include="Assets\VisualNovelToolkit\Scripts\Editor\Inspector\UI\SimpleButtonInspector.cs" />
     <Compile Include="Assets\VisualNovelToolkit\Scripts\Editor\Inspector\Nodes\ScenarioNodeInspector.cs" />
-    <Compile Include="Assets\VisualNovelToolkit\Scripts\Editor\Inspector\Engine\ViNoInspector.cs" />
-    <Compile Include="Assets\VisualNovelToolkit\Scripts\Editor\Inspector\UI\TransformGUIButtonInspector.cs" />
-    <Compile Include="Assets\VisualNovelToolkit\Scripts\Editor\Inspector\UI\ViNoTextEventListenerInspector.cs" />
-    <Compile Include="Assets\VisualNovelToolkit\Scripts\Editor\Inspector\Util\SceneCreatorInspector.cs" />
-    <Compile Include="Assets\VisualNovelToolkit\Scripts\Editor\Inspector\Util\DialogPartNodeUtility.cs" />
-    <Compile Include="Assets\VisualNovelToolkit\Scripts\Editor\Inspector\Nodes\DialogPartNodeInspector.cs" />
-    <Compile Include="Assets\VisualNovelToolkit\Scripts\Editor\Inspector\Sound\ViNoSoundPlayerInspector.cs" />
-    <Compile Include="Assets\VisualNovelToolkit\Scripts\Editor\Window\DrawTemplatesTab.cs" />
-    <Compile Include="Assets\VisualNovelToolkit\Scripts\Editor\Inspector\Util\FlagTableInspector.cs" />
-    <Compile Include="Assets\VisualNovelToolkit\Scripts\Editor\Util\ViNoEditorUtil.cs" />
-    <Compile Include="Assets\VisualNovelToolkit\Scripts\Editor\Window\DialogItemInspector.cs" />
-    <Compile Include="Assets\VisualNovelToolkit\Scripts\Editor\Window\DrawViNodesTab.cs" />
-    <Compile Include="Assets\VisualNovelToolkit\Scripts\Editor\Inspector\Nodes\PlaySoundNodeInspector.cs" />
-    <Compile Include="Assets\VisualNovelToolkit\Scripts\Editor\Inspector\Nodes\AnimationNodeInspector.cs" />
-    <Compile Include="Assets\VisualNovelToolkit\Scripts\Editor\Util\ViNoEditorResources.cs" />
-    <Compile Include="Assets\VisualNovelToolkit\Scripts\Editor\Window\DrawScenarioTab.cs" />
-    <Compile Include="Assets\VisualNovelToolkit\Scripts\Sample\Editor\CreateSampleGUI.cs" />
-    <Compile Include="Assets\VisualNovelToolkit\Scripts\Editor\Window\ObjectCreateTool.cs" />
-    <Compile Include="Assets\VisualNovelToolkit\Scripts\Editor\Inspector\Nodes\JumpTargetNodeInspector.cs" />
     <Compile Include="Assets\VisualNovelToolkit\Scripts\Editor\Inspector\Util\SystemUIEventInspector.cs" />
-    <Compile Include="Assets\VisualNovelToolkit\Scripts\Editor\Wizard\ActorCreateWizard.cs" />
-    <Compile Include="Assets\VisualNovelToolkit\Scripts\Editor\Window\ViNoToolbar.cs" />
+    <Compile Include="Assets\VisualNovelToolkit\Scripts\Editor\Inspector\Util\ScenarioCtrlInspector.cs" />
+    <Compile Include="Assets\VisualNovelToolkit\Scripts\Editor\Inspector\UI\TransformGUIButtonInspector.cs" />
+    <Compile Include="Assets\VisualNovelToolkit\Scripts\Editor\Inspector\Nodes\AnimationNodeInspector.cs" />
     <Compile Include="Assets\VisualNovelToolkit\Scripts\Editor\Wizard\SceneCreateWizard.cs" />
+    <Compile Include="Assets\VisualNovelToolkit\Scripts\Editor\Inspector\UI\ColorPanelInspector.cs" />
+    <Compile Include="Assets\VisualNovelToolkit\Scripts\Editor\Window\DrawObjectsTab.cs" />
+    <Compile Include="Assets\VisualNovelToolkit\Scripts\Editor\Inspector\Util\SceneInspector.cs" />
+    <Compile Include="Assets\VisualNovelToolkit\Scripts\Editor\Inspector\Nodes\JumpTargetNodeInspector.cs" />
+    <Compile Include="Assets\VisualNovelToolkit\Scripts\Editor\Wizard\ActorCreateWizard.cs" />
+    <Compile Include="Assets\VisualNovelToolkit\Scripts\Editor\Window\ObjectCreateTool.cs" />
+    <Compile Include="Assets\VisualNovelToolkit\Scripts\Editor\Window\ViNoToolbar.cs" />
+    <Compile Include="Assets\VisualNovelToolkit\Scripts\Editor\Inspector\Sound\SimpleSoundPlayerInspector.cs" />
+    <Compile Include="Assets\VisualNovelToolkit\Scripts\Editor\Inspector\UI\ViNoTextEventListenerInspector.cs" />
+    <Compile Include="Assets\VisualNovelToolkit\Scripts\Editor\Inspector\Nodes\DialogPartNodeInspector.cs" />
+    <Compile Include="Assets\VisualNovelToolkit\Scripts\Editor\Window\DrawViNodesTab.cs" />
+    <Compile Include="Assets\VisualNovelToolkit\Scripts\Editor\Inspector\Util\ViNoSaveInfoInspector.cs" />
+    <Compile Include="Assets\VisualNovelToolkit\Scripts\Editor\Util\ViNoScenarioDataUtil.cs" />
+    <Compile Include="Assets\VisualNovelToolkit\Scripts\Editor\Inspector\Util\SceneCreatorInspector.cs" />
+    <Compile Include="Assets\VisualNovelToolkit\Scripts\Editor\Util\ViNoEditorUtil.cs" />
+    <Compile Include="Assets\VisualNovelToolkit\Scripts\Editor\Inspector\Nodes\SelectionsNodeInspector.cs" />
     <Compile Include="Assets\VisualNovelToolkit\Scripts\Editor\Inspector\UI\ViNoTextBoxInspector.cs" />
+    <Compile Include="Assets\VisualNovelToolkit\Scripts\Editor\Util\ScriptableObjectUtility.cs" />
+    <Compile Include="Assets\VisualNovelToolkit\Scripts\Editor\Inspector\Util\DialogPartNodeUtility.cs" />
+    <Compile Include="Assets\VisualNovelToolkit\Scripts\Editor\Util\ViNoEditorResources.cs" />
+    <Compile Include="Assets\VisualNovelToolkit\Scripts\Editor\Inspector\Sound\ViNoSoundPlayerInspector.cs" />
+    <Compile Include="Assets\VisualNovelToolkit\Scripts\Sample\Editor\CreateSampleGUI.cs" />
     <Compile Include="Assets\VisualNovelToolkit\Scripts\Editor\Inspector\UI\ViNoTextMeshEventListenerInspector.cs" />
+    <Compile Include="Assets\VisualNovelToolkit\Scripts\Editor\Inspector\Util\FlagTableInspector.cs" />
+    <Compile Include="Assets\VisualNovelToolkit\Scripts\Editor\Inspector\Nodes\PlaySoundNodeInspector.cs" />
+    <Compile Include="Assets\VisualNovelToolkit\Scripts\Editor\Window\DrawScenarioTab.cs" />
     <Compile Include="Assets\VisualNovelToolkit\Scripts\Editor\Window\DrawSamplesTab.cs" />
+    <Compile Include="Assets\VisualNovelToolkit\Scripts\Editor\Inspector\Nodes\NodeGUI.cs" />
+    <Compile Include="Assets\VisualNovelToolkit\Scripts\Editor\Inspector\Engine\ViNoInspector.cs" />
+    <Compile Include="Assets\VisualNovelToolkit\Scripts\Editor\Inspector\Nodes\GUICommon.cs" />
+    <Compile Include="Assets\VisualNovelToolkit\Scripts\Editor\Inspector\Nodes\ViNodeInspector.cs" />
+    <Compile Include="Assets\VisualNovelToolkit\Scripts\Editor\Window\DrawTemplatesTab.cs" />
+    <Compile Include="Assets\VisualNovelToolkit\Scripts\Editor\Window\DialogItemInspector.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -381,6 +380,9 @@
     <Reference Include="Unity.VisualScripting.IonicZip">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
     </Reference>
+    <Reference Include="MakeDLLforFree">
+      <HintPath>Assets\VisualNovelToolkit\DLLs\MakeDLLforFree.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Burst.Cecil.Pdb">
       <HintPath>Library\PackageCache\com.unity.burst@1.6.5\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll</HintPath>
     </Reference>
@@ -401,9 +403,6 @@
     </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
-    </Reference>
-    <Reference Include="MakeDLLforFree">
-      <HintPath>Assets\VisualNovelToolkit\DLLs\MakeDLLforFree.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
