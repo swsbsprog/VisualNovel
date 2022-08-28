@@ -98,6 +98,7 @@
     <Compile Include="Assets\VisualNovelToolkit\Scripts\ViNo\Event\ViNoEventManager.cs" />
     <Compile Include="Assets\VisualNovelToolkit\Scripts\ViNo\Ctrl\GUISelectionsCtrl.cs" />
     <Compile Include="Assets\VisualNovelToolkit\Scripts\ViNo\Sound\ViNoSoundPlayer.cs" />
+    <Compile Include="Assets\CharacterUI.cs" />
     <Compile Include="Assets\VisualNovelToolkit\Scripts\ViNo\Nodes\CreateObjectNode.cs" />
     <Compile Include="Assets\VisualNovelToolkit\Scripts\ViNo\Util\ViNoBackLog.cs" />
     <Compile Include="Assets\Unity.VisualScripting.Generated\VisualScripting.Core\Property Providers\PropertyProvider_TMPro_TMP_InputField_OnChangeEvent.cs" />
@@ -111,6 +112,7 @@
     <Compile Include="Assets\VisualNovelToolkit\Scripts\ViNo\Util\ViNoSceneUtil.cs" />
     <Compile Include="Assets\VisualNovelToolkit\Scripts\ViNo\Effects\GUIFadeTransition.cs" />
     <Compile Include="Assets\Unity.VisualScripting.Generated\VisualScripting.Core\Property Providers\PropertyProvider_UnityEngine_EventSystems_EventTrigger_TriggerEvent.cs" />
+    <Compile Include="Assets\DialogManager.cs" />
     <Compile Include="Assets\VisualNovelToolkit\Scripts\ViNo\Event\ViNoEventListener.cs" />
     <Compile Include="Assets\VisualNovelToolkit\iTween\Sample\RotateSample.cs" />
     <Compile Include="Assets\VisualNovelToolkit\Scripts\ViNo\Data\ScenarioFinishEventData.cs" />
@@ -160,6 +162,7 @@
     <Compile Include="Assets\Unity.VisualScripting.Generated\VisualScripting.Core\Property Providers\PropertyProvider_TMPro_TMP_Dropdown_OptionDataList.cs" />
     <Compile Include="Assets\VisualNovelToolkit\Scripts\ViNo\Ctrl\SelectionsCtrl.cs" />
     <Compile Include="Assets\Unity.VisualScripting.Generated\VisualScripting.Core\Property Providers\PropertyProvider_UnityEngine_ParticleSystem_MinMaxGradient.cs" />
+    <Compile Include="Assets\TalkUI.cs" />
     <Compile Include="Assets\VisualNovelToolkit\Scripts\ViNo\API\ViNo.cs" />
     <Compile Include="Assets\VisualNovelToolkit\Scripts\ViNo\Data\FlagTableData.cs" />
     <Compile Include="Assets\VisualNovelToolkit\Scripts\ViNo\Event\ViNoTextMeshEventListener.cs" />
@@ -225,9 +228,6 @@
     <Compile Include="Assets\VisualNovelToolkit\Scripts\ViNo\Event\ViNoDialogPartEnterListener.cs" />
     <Compile Include="Assets\VisualNovelToolkit\Scripts\ViNo\API\ViNoAPI.cs" />
     <Compile Include="Assets\VisualNovelToolkit\Scripts\ViNo\SaveLoad\ExternalAccessor.cs" />
-    <Compile Include="Assets\DialogManager.cs" />
-    <Compile Include="Assets\TalkUI.cs" />
-    <Compile Include="Assets\CharacterUI.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\VisualNovelToolkit\ReadMe.txt" />

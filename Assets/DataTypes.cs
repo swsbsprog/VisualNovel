@@ -17,13 +17,11 @@ public class TurnInfo
     [Inspectable]
     public Type type;
 
-    [Header("Talk")]
     [Inspectable]
     public string Name;
     [Inspectable]
     public string talk;
 
-    [Header("ActorEnter")]
     [Inspectable]
     public Sprite Image;
 

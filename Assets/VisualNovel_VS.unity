@@ -511,11 +511,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _data:
     _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"DialogText","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.UI.Text,
-      UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Dialogs","value":{"$content":[{"type":"ActorEnter","Name":"","talk":"","Image":1},{"type":"Talk","Name":"\ucca0\uc218","talk":"\ubc25
-      \uba39\uc5c8\uc5b4?","Image":null},{"type":"ActorEnter","Name":"","talk":"","Image":2},{"type":"Talk","Name":"\uc601\ud76c","talk":"\uc544\uc9c1
-      \u3160","Image":null},{"type":"Talk","Name":"\ucca0\uc218","talk":"\ubc25\uba39\uc73c\ub7ec
-      \uac00\uc790","Image":null}],"$type":"System.Collections.Generic.List`1[[DialogInfo,
-      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"typeHandle":{"Identification":"System.Collections.Generic.List`1[[DialogInfo,
+      UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Dialogs","value":{"$content":[{"type":"Talk","Name":"\ub0a8\uc7901","talk":"\ube44\uc96c\uc5bc
+      \uc2a4\ud06c\ub9bd\ud2b8\ub85c \uc791\uc5c5\uc740 \ud3b8\ud560\uae4c?","Image":null,"clearText":true},{"type":"ActorEnter","Name":null,"talk":null,"Image":1,"clearText":true},{"type":"Talk","Name":"\uc5ec\uc7901","talk":"\ucc28\ub77c\ub9ac
+      \uc2a4\ud06c\ub9bd\ud2b8\uac00 \ub354 \uc26c\uc6cc","Image":null,"clearText":true},{"type":"ActorEnter","Name":null,"talk":null,"Image":2,"clearText":true},{"type":"Talk","Name":"\uc548\ub0b4","talk":"\ub9c8\uc9c0\ub9c9
+      \uc785\ub2c8\ub2e4","Image":null,"clearText":true}],"$type":"System.Collections.Generic.List`1[[TurnInfo,
+      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"typeHandle":{"Identification":"System.Collections.Generic.List`1[[TurnInfo,
       Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], mscorlib,
       Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"nameText","value":{"$content":3,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.UI.Text,
       UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"RightActor","value":{"$content":4,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.UI.Image,
